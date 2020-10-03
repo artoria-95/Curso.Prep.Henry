@@ -1,0 +1,47 @@
+body{
+    background-image: url("https://blog.aulaformativa.com/wp-content/uploads/2014/03/creacion-de-paginas-web-blanco-como-fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#estudiosymetas, #profesional {
+    font: small-caps 100%/200% serif;
+    color: black;
+    margin: 0 auto;
+    display: flexbox;
+    width: 500px;
+    background: rgba(253, 253, 253, 0.849);
+    padding: 50px;
+    
+}
+@media (min-width: 1000px){
+    
+  #cabecera, #pie {
+    text-align: center;
+    font: small-caps 100%/200% serif;
+    color: black;
+    margin: 0 auto;
+    background: rgba(253, 253, 253, 0.849);
+    
+  }
+#info{
+    float: left;
+    font: small-caps 100%/200% serif;
+    color: black;
+    margin: 0 auto;
+    display: flexbox;
+    width: 200px;
+    background: rgba(253, 253, 253, 0.849);
+    padding: 50px;
+}
+#idiomas{
+    float: right;
+    font: small-caps 100%/200% serif;
+    color: black;
+    margin: 0 auto;
+    display: flexbox;
+    width: 200px;
+    background: rgba(253, 253, 253, 0.849);
+    padding: 50px;
+}
